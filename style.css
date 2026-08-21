@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #1a1a1a;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.container > p {
+  line-height: 1.5;
+}
+
+.checklist {
+  margin: 28px 0;
+}
+
+.checklist label {
+  display: block;
+  padding: 14px;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checklist input {
+  margin-right: 10px;
+}
+
+.progress {
+  margin: 20px 0;
+  padding: 16px;
+  background: #eeeeee;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+button {
+  padding: 11px 18px;
+  border: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.note {
+  margin-top: 28px;
+  font-size: 14px;
+  color: #555555;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  .container {
+    padding: 22px;
+  }
+}
